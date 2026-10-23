@@ -1,0 +1,13 @@
+modèle,famille,représentation,split,accuracy,balanced_acc,precision_macro,recall_macro,f1_macro,temps_s,params
+Naive Bayes,ML,bow,val,0.5875,0.5737,0.5779,0.5737,0.5686,0.0162,
+Naive Bayes,ML,tfidf_w,val,0.5875,0.5698,0.5665,0.5698,0.5671,0.0273,
+Rég. logistique,ML,tfidf_w,val,0.5562,0.5466,0.5485,0.5466,0.5439,0.6661,
+Rég. logistique,ML,tfidf_c,val,0.5938,0.5736,0.5967,0.5736,0.5765,1.0728,
+Rég. logistique,ML,tfidf_wc,val,0.6,0.5879,0.6128,0.5879,0.5949,1.4258,
+SVM linéaire,ML,tfidf_w,val,0.5625,0.5574,0.5563,0.5574,0.5542,0.0258,
+SVM linéaire,ML,tfidf_c,val,0.6188,0.6056,0.6167,0.6056,0.607,0.2128,
+SVM linéaire,ML,tfidf_wc,val,0.6062,0.5952,0.6068,0.5952,0.5972,0.2561,
+MLP (TF-IDF),DL,tfidf_w,val,0.6188,0.6142,0.6136,0.6142,0.6112,3.3938,1116935.0
+fastText,DL,embeddings,val,0.55,0.5453,0.5411,0.5453,0.5408,1.0424,194407.0
+BiLSTM,DL,embeddings,val,0.3625,0.352,0.3469,0.352,0.3475,21.5319,279595.0
+CNN 1D,DL,embeddings,val,0.4812,0.468,0.4769,0.468,0.4625,10.6722,252843.0

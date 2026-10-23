@@ -1,0 +1,9 @@
+accelerate
+jupyter
+matplotlib
+pandas
+scikit-learn
+seaborn
+torch>=2.0
+tqdm
+transformers
